@@ -1,0 +1,14 @@
+{
+  "name": "merge-bower",
+  "version": "0.0.1",
+  "description": "Merge two bower.json dependency files",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "author": "Ros Corcoran",
+  "dependencies": {
+    "semver": "^4.3.3"
+  }
+}
